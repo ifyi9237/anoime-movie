@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: #192026;
+    width: 100%;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+   
+    top: 0;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 10px
+    
+   
+}
+
+.logo-div{
+    width: 150px;
+    height: 32px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  
+    
+}
+.logo{
+color: white;
+font-size: 36px;
+text-decoration: none;
+cursor: pointer;
+display: flex;
+align-items: center;
+height: 32px;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+}
+.navmenu-div{   
+width: 30%;
+}
+
+.nav-menu{
+display: flex;
+align-items: center;
+column-gap: 35px;
+list-style-type: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.nav-links:hover{
+    color: grey;
+    transition: all 0.3s ease;
+}
+
+.input-wrapper{
+    width:274.58px;
+    height: 32px;
+    margin-right: 20px;
+   
+   
+    
+}
+
+.input{
+    background-color: #374151;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 32px;
+    width: 100%;
+    outline: none;
+    color: white;
+    
+}
+
+section{
+    
+    width: 100%;
+   
+    
+}
+
+.explore-div{
+    width:118px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.explore{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.today{
+    font-family: 'Poppins', sans-serif;
+    color: #868686;
+    font-size: 22px;
+    margin-top: 25px;
+    padding: 0 10px;
+    
+    
+}
+
+.navbar-toggle{
+   
+    height: min-content;
+    margin: 18px -10px;
+    cursor: pointer;
+    flex-direction: column;
+    display: none;
+}
+
+.bar{
+width: 40px;
+height: 5px;
+background: rgb(184, 175, 175);
+margin-bottom: 5px;
+}
+
+.release{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.image-wrapper{
+    background-image: url(./image/spy_carousel\ 1.png); 
+    min-height: 80%;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+.spy{
+    position: absolute;
+    top: 58%;
+    color: rgb(255, 247, 247);
+    padding-left: 5px;
+    left: 5%;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.spy-1{
+    position: absolute;
+    top: 75%;
+    color: rgb(255, 247, 247);
+    padding-left: 5px;
+    left: 5%;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.overlay{
+  position: absolute;
+background-color: #404040;
+filter: blur(7px);
+opacity: .4;
+width: 90%;
+height: 80vh;
+top: 60%;
+left: 10%;
+
+}
+
+
+
+
+
+.img{
+    position: absolute;
+width: 1170px;
+height: 400px;
+left: 135px;
+top: 425px;
+color: white;
+
+}
+
+.weather{
+    margin-bottom: 25px;
+}
+
+.text{
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+
+.image-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    display: non;
+    
+}
+
+   
+.img-1{
+    background-image: url(./image/anime_img.png);
+    width: 200px;
+   min-height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+   
+    
+  
+}
+
+.img-2{
+    background-image: url(./image/boruto-naruto-next-generations.png);
+    width: 200px;
+    min-height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+    
+}
+
+.img-3{
+    background-image: url(./image/episode-07.png);
+    width: 200px;
+    min-height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 7px;
+    position: relative;
+}
+
+.img-4{
+    background-image: url(./image/episode-28.png);
+    width: 200px;
+    min-height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.img-5{
+    background-image: url(./image/episode-28-2.png);
+    width: 200px;
+    min-height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 8px;
+    position: relative;
+}
+.img-6{
+    background-image: url(./image/episode-28-3.png);
+    width: 200px;
+    min-height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+  
+    
+}
+
+.image-text{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    color: rgb(241, 236, 236);
+    }
+    
+    .image-text1{
+        position: absolute;
+        top: 105%;
+        left: 20%;
+        color: white;
+        
+    }
+
+    .left-slide{
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .center-slide{
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .right-slide{
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .image-one{
+        position: absolute;
+        top: 103%;
+        left: 20%;
+        color: white;
+    }
+
+    .image-text2{
+        position: absolute;
+        top: 102%;
+        left: 20%;
+        color: white;
+    }
+
+    .image-text3{
+        position: absolute;
+        top: 102%;
+        left: 20%;
+        color: white;
+    }
+
+    .image-text4{
+        position: absolute;
+        top: 102%;
+        left: 20%;
+        color: white;
+    }
+
+    .image-text5{
+        position: absolute;
+        top: 102%;
+        left: 30%;
+        color: white;
+    }
+
+
+    .show{
+        display: flex;
+      }
+
+       @media (max-width:1200px) {
+
+        .explore-div{
+            height: 10px;
+        }
+
+        .image-container{
+            column-gap: 15px;
+        }
+        .image-wrapper{
+            height: 75%;
+            background-position: center;
+            
+        }
+
+        .img-1{
+            width: 170px;
+        }
+
+        .img-2{
+            width: 190px;
+        }
+
+        
+    
+        .img-4{
+            width: 190px;
+        }
+
+        .img-5{
+            width: 170px;
+        }
+
+        .img-5{
+            width: 180px;
+            margin: 0;
+        }
+
+        .img-6{
+            width: 160px;
+        }
+        
+      } 
+
+
+       @media (max-width:768px) {
+        .image-wrapper{
+            min-height: 60%;
+        }
+
+        .left-slide{
+            width: 100%;
+        }
+
+        .center-slide{
+            width: 100%;
+        }
+
+        .right-slide{
+            width: 100%;
+            display: none;
+        }
+
+        .img-1{
+            width: 110px;
+        }
+        
+        .img-2{
+            width: 120px;
+        }
+
+        .img-3{
+            width: 120px;
+        }
+
+        .img-4{
+            width: 120px;
+        }
+
+        .img-5{
+            width: 120px;
+        }
+
+        .img-6{
+            width: 110px;
+        }
+      } 
+
+        
+      
+
+
+
+
+
+@media (max-width:414px) {
+   
+    .navbar{
+        background: red;
+        line-height: 75px;
+        width: 100%;
+           
+    }
+
+    .navbar-container{
+        position: relative;
+    }
+
+    .navmenu-div{
+        display: none;
+    }
+   
+    .nav-menu{
+        display: table-column;
+        position: absolute;
+        background: #404040;
+        width: 100%;
+        top: 82px;
+        left: 0;
+        transition: .6s;
+    }
+    .nav-links{
+        font-size: 20px;
+    }
+
+
+
+    .nav-links{
+        padding-left: 25px;
+    }
+    
+    .navbar-toggle{
+   
+        height: min-content;
+        margin: 18px -10px;
+        cursor: pointer;
+        flex-direction: column;
+        display: flex;
+        border: 2px solid grey;
+        font-size: 25px;
+        margin-right: 0;
+    }
+        
+    .bar{
+        width: 40px;
+        height: 5px;
+        background: rgb(184, 175, 175);
+        margin-bottom: 5px;
+        }
+
+        .overlay{
+            position: absolute;
+        background-color: #404040;
+        filter: blur(7px);
+        opacity: .3;
+        width: 90%;
+        height: 20vh;
+        top: 115px;
+        
+        }
+
+        .img-hide{
+            display: none;
+        }
+
+
+
+        .image-wrapper{
+            background-image: url(./image/spy_carousel\ 1.png);
+         
+            min-height: 200px;
+            background-size: cover;
+           
+            background-repeat: no-repeat;
+            width: 100%;
+            border-radius: 12px;
+            position: relative;
+            background-position: center;
+        }
+
+        .spy{
+            font-size: 25px;
+        }
+
+        .spy-1{
+            display: none;
+        }
+
+        .left-slide{
+            width: 100%;
+        }
+
+
+      .today{
+        margin-bottom: 30px;
+      }
+
+      .show{
+        display: flex;
+      }
+
+
+
+
+        .img1-div{
+            display: flex;
+            column-gap: 15px;
+            width: 100%;
+            margin-bottom: 35px;
+        }
+        
+        
+        .img-1{
+            background-image: url(./image/anime_img.png);
+            width: 45%;
+           min-height: 30vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            border-radius: 15px;
+            margin-left: 7px;
+            
+          
+        }
+        
+        .img-2{
+            background-image: url(./image/boruto-naruto-next-generations.png);
+            width: 47%;
+            min-height: 40vh;
+             background-repeat: no-repeat;
+             background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            position: relative;
+            
+        }
+        
+        .img-3{
+            background-image: url(./image/episode-07.png);
+            width: 45%;
+            min-height: 40vh;
+             background-repeat: no-repeat;
+             background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            margin-left: 7px;
+            position: relative;
+        }
+        
+        .img-4{
+            background-image: url(./image/episode-28.png);
+            width: 45%;
+            min-height: 40vh;
+             background-repeat: no-repeat;
+             background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            position: relative;
+        }
+        
+        .img-5{
+            background-image: url(./image/episode-28-2.png);
+            width: 45%;
+            min-height: 40vh;
+             background-repeat: no-repeat;
+             background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            margin-left: 8px;
+            position: relative;
+        }
+        .img-6{
+            background-image: url(./image/episode-28-3.png);
+            width: 45%;
+            min-height: 40vh;
+             background-repeat: no-repeat;
+             background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            position: relative;
+          
+            
+        }
+        
+        
+        .image-text{
+        position: absolute;
+        top: 90%;
+        left: 20%;
+        color: rgb(241, 236, 236);
+        }
+
+        .input-wrapper{
+            display: block;
+           position: absolute;
+                 top: 195%;
+                 width: 95%;
+        }
+
+        .input{
+            width: 100%;
+            padding: 5px 10px;
+        }
+
+        .fa-bars{
+            color: white;
+            font-size: 40px;
+        }
+        
+        .image-text1{
+            position: absolute;
+            top: 100%;
+            left: 20%;
+            color: white;
+            
+        }
+
+        .image-one{
+            position: absolute;
+            top: 103%;
+            left: 20%;
+            color: white;
+        }
+
+        .image-text2{
+            position: absolute;
+            top: 102%;
+            left: 20%;
+            color: white;
+        }
+
+        .image-text3{
+            position: absolute;
+            top: 102%;
+            left: 20%;
+            color: white;
+        }
+
+        .image-text4{
+            position: absolute;
+            top: 102%;
+            left: 20%;
+            color: white;
+        }
+
+        .image-text5{
+            position: absolute;
+            top: 102%;
+            left: 30%;
+            color: white;
+        }
+
+        .image-container{
+            flex-direction: column;
+        }
+
+        .left-slide{
+            margin-bottom: 37px;
+        }
+
+        .center-slide{
+            margin-bottom: 35px;
+        }
+ 
+}
+
